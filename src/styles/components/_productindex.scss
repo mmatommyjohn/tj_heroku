@@ -1,0 +1,17 @@
+.pd_list_link {
+  text-decoration: none;
+  color: $color-primary
+}
+
+.pd_list_item {
+  display: flex;
+}
+
+.pd_list_item_info {
+  margin: 1rem;
+  margin-top: .33rem;
+}
+
+.pd_list_item__image {
+  height: 128px;
+}
