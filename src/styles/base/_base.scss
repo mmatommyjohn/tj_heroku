@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Basetica;
+  src: url("base/BASETICA/Basetica-Med.otf") format("opentype")
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: scroll;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  line-height: 1.1;
+  font-family: 'Basetica', sans-serif;
+  font-display: optional;
+  color: #00424a;
+  letter-spacing: .05rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  background: #064b4f;
+  padding-top: 4rem;
+}
+
+.card {
+  padding: 16px;
+  position: relative;
+  box-sizing: border-box;
+  background: $color-slate;
+  border-radius: 2px;
+  margin: 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+  0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
