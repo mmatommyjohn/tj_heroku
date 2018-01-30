@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/tj-favicon.png">
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/tj-favicon.png">
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -19,22 +20,139 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Tommy John</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <title>Tommy John</title>
+  <script src="//tags.tiqcdn.com/utag/tommyjohn/main/muh-tj/utag.sync.js"></script>
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <!-- The utag.sync.js script should run as early as possible, preferably
+ in the head of the document. See the Sample HTML for more information -->
 
+  <script type="text/javascript">
+    var utag_data = {
+      breadcrumb: "", // 
+      customer_city: "", // 
+      customer_country: "", // 
+      customer_email: "", // 
+      customer_id: "", // 
+      customer_state: "", // 
+      customer_postal: "", // 
+      customer_first_name: "", // 
+      customer_last_name: "", // 
+      order_currency: "", // 
+      order_discount_amount: "", // 
+      order_id: "", // 
+      order_payment_type: "", // 
+      order_shipping_amount: "", // 
+      order_subtotal: "", // 
+      order_tax_amount: "", // 
+      order_total: "", // 
+      order_step_name: "", // 
+      order_step_number: "", // 
+      order_shipping_option: "", // 
+      order_delivery_option: "", // 
+      order_status: "", // 
+      page_product_category: "", // 
+      page_category: "", // 
+      page_name: "", // 
+      page_subcategory: "", // 
+      tj_page_type: "", // 
+      imp_product_brand: "", // 
+      imp_product_category: "", // 
+      imp_product_id: "", // 
+      imp_product_name: "", // 
+      imp_product_position: "", // 
+      imp_product_sku: "", // 
+      imp_product_price: "", // 
+      imp_product_list: "", // 
+      imp_product_varaint: "", // 
+      product_category: "", // 
+      product_subcategory: "", // 
+      product_sku: "", // 
+      product_id: "", // 
+      product_name: "", // 
+      product_price: "", // 
+      product_quantity: "", // 
+      product_sale_price: "", // 
+      product_variant: "", // 
+      product_position: "", // 
+      product_coupon: "", // 
+      product_url: "", // 
+      product_list: "", // 
+      promo_code: "", // 
+      site_id: "", // 
+      site_type: "", // 
+      article_id: "", // 
+      article_name: "", // 
+      article_author: "", // 
+      article_publish_date: "", // 
+      event_name: "", // 
+      event_category: "", // 
+      event_action: "", // 
+      event_label: "", // 
+      event_value: "", // 
+      event_non_interactive: "", // 
+      promo_creative: "", // 
+      promo_name: "", // 
+      promo_position: "", // 
+      promo_id: "", // 
+      twitter_event: "", // 
+      pp_site_id: "", // 
+      mi_id: "", // 
+      tb_name: "", // 
+      tb_notify: "", // 
+      return_customer: "", // 
+      order_flag: "", // 
+      product_brand: "", // Contains product brand(s) - multiple values should be comma-separated.
+      product_unit_price: "", // Contains product unit price(s) - multiple values should be comma-separated.
+      product_list_price: "", // Contains product list price(s) before discount - multiple values should be comma-separated.
+      product_discount: "", // Contains product discount(s) - multiple values should be comma-separated.
+      order_discount: "", // Contains the order discount (if any).
+      order_shipping: "", // Contains the order shipping value.
+      order_tax: "", // Contains the order tax amount.
+      order_coupon_code: "", // Contains the order coupon code.
+      order_coupon_discount: "", // Contains the order coupon discount.
+      order_store: "", // Contains identification information for a store.
+      order_type: "", // Contains type of order/cart.
+      customer_zip: "", // Contains the customer zip/postal code.
+      customer_type: "", // Contains the customer type.
+      dy_context_type: "", // 
+      dy_context_data: "", // 
+      tj_category_hierarchy: "", // Used to track category hierchy 
+      dy_event: "", // 
+      email: "", // 
+      page_type: "" // 
+    }
+  </script>
+
+  <!-- Loading script asynchronously -->
+  <div id="root"></div>
+  <!--
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
+    
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
+      
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+    <script type="text/javascript">
+      (function (a, b, c, d) {
+        a = '//tags.tiqcdn.com/utag/tommyjohn/main/muh-tj/utag.js';
+        b = document;
+        c = 'script';
+        d = b.createElement(c);
+        d.src = a;
+        d.type = 'text/java' + c;
+        d.async = true;
+        a = b.getElementsByTagName(c)[0];
+        a.parentNode.insertBefore(d, a);
+      })();
+    </script>
+</body>
+
 </html>
