@@ -22,114 +22,30 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Tommy John</title>
-  <script src="//tags.tiqcdn.com/utag/tommyjohn/main/muh-tj/utag.sync.js"></script>
 </head>
 
 <body>
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
-  <!-- The utag.sync.js script should run as early as possible, preferably
- in the head of the document. See the Sample HTML for more information -->
-
   <script type="text/javascript">
-    var utag_data = {
-      breadcrumb: "", // 
-      customer_city: "", // 
-      customer_country: "", // 
-      customer_email: "", // 
-      customer_id: "", // 
-      customer_state: "", // 
-      customer_postal: "", // 
-      customer_first_name: "", // 
-      customer_last_name: "", // 
-      order_currency: "", // 
-      order_discount_amount: "", // 
-      order_id: "", // 
-      order_payment_type: "", // 
-      order_shipping_amount: "", // 
-      order_subtotal: "", // 
-      order_tax_amount: "", // 
-      order_total: "", // 
-      order_step_name: "", // 
-      order_step_number: "", // 
-      order_shipping_option: "", // 
-      order_delivery_option: "", // 
-      order_status: "", // 
-      page_product_category: "", // 
-      page_category: "", // 
-      page_name: "", // 
-      page_subcategory: "", // 
-      tj_page_type: "", // 
-      imp_product_brand: "", // 
-      imp_product_category: "", // 
-      imp_product_id: "", // 
-      imp_product_name: "", // 
-      imp_product_position: "", // 
-      imp_product_sku: "", // 
-      imp_product_price: "", // 
-      imp_product_list: "", // 
-      imp_product_varaint: "", // 
-      product_category: "", // 
-      product_subcategory: "", // 
-      product_sku: "", // 
-      product_id: "", // 
-      product_name: "", // 
-      product_price: "", // 
-      product_quantity: "", // 
-      product_sale_price: "", // 
-      product_variant: "", // 
-      product_position: "", // 
-      product_coupon: "", // 
-      product_url: "", // 
-      product_list: "", // 
-      promo_code: "", // 
-      site_id: "", // 
-      site_type: "", // 
-      article_id: "", // 
-      article_name: "", // 
-      article_author: "", // 
-      article_publish_date: "", // 
-      event_name: "", // 
-      event_category: "", // 
-      event_action: "", // 
-      event_label: "", // 
-      event_value: "", // 
-      event_non_interactive: "", // 
-      promo_creative: "", // 
-      promo_name: "", // 
-      promo_position: "", // 
-      promo_id: "", // 
-      twitter_event: "", // 
-      pp_site_id: "", // 
-      mi_id: "", // 
-      tb_name: "", // 
-      tb_notify: "", // 
-      return_customer: "", // 
-      order_flag: "", // 
-      product_brand: "", // Contains product brand(s) - multiple values should be comma-separated.
-      product_unit_price: "", // Contains product unit price(s) - multiple values should be comma-separated.
-      product_list_price: "", // Contains product list price(s) before discount - multiple values should be comma-separated.
-      product_discount: "", // Contains product discount(s) - multiple values should be comma-separated.
-      order_discount: "", // Contains the order discount (if any).
-      order_shipping: "", // Contains the order shipping value.
-      order_tax: "", // Contains the order tax amount.
-      order_coupon_code: "", // Contains the order coupon code.
-      order_coupon_discount: "", // Contains the order coupon discount.
-      order_store: "", // Contains identification information for a store.
-      order_type: "", // Contains type of order/cart.
-      customer_zip: "", // Contains the customer zip/postal code.
-      customer_type: "", // Contains the customer type.
-      dy_context_type: "", // 
-      dy_context_data: "", // 
-      tj_category_hierarchy: "", // Used to track category hierchy 
-      dy_event: "", // 
-      email: "", // 
-      page_type: "" // 
-    }
+    var utag_data = {}
   </script>
 
   <!-- Loading script asynchronously -->
+  <script type="text/javascript">
+    (function (a, b, c, d) {
+      a = '//tags.tiqcdn.com/utag/tommyjohn/internal-developer/dev/utag.js';
+      b = document;
+      c = 'script';
+      d = b.createElement(c);
+      d.src = a;
+      d.type = 'text/java' + c;
+      d.async = true;
+      a = b.getElementsByTagName(c)[0];
+      a.parentNode.insertBefore(d, a);
+    })();
+  </script>
   <div id="root"></div>
   <!--
     This HTML file is a template.
