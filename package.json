@@ -2,7 +2,7 @@
   "name": "heroku-app",
   "version": "0.1.0",
   "engines": {
-    "node": "8.9.0"
+    "node": "9.4.0"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +28,6 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "postinstall": "build"
+    "postinstall": "npm-run-all build-css build-js"
   }
 }
