@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 import Header from "../components/Header";
+import Mark from "../components/Mark";
 import Home from "../components/Home";
 import NotFound from "../components/NotFound";
 import Category from "../components/Category";
@@ -14,7 +15,7 @@ const Router = () => (
     <div>
       <Header />
       <Switch>
-        <Route path="/" component={Home} exact={true} />
+        <Route path="/" component={Mark} exact={true} />
         <Route path="/home" component={Home} exact={true} />
         <Route path="/category" component={Category} />
         <Route path="/product" exact component={Product} />
