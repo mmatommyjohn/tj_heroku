@@ -6,6 +6,8 @@ import Home from "../components/Home";
 import NotFound from "../components/NotFound";
 import Category from "../components/Category";
 import Product from "../components/Product";
+import Custom from "../components/Custom";
+import Cart from "../components/Cart";
 
 const Router = () => (
   <BrowserRouter>
