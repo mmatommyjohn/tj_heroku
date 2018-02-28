@@ -16,6 +16,8 @@ const Router = () => (
         <Route path="/home" component={Home} exact={true} />
         <Route path="/category" component={Category} />
         <Route path="/product" exact component={Product} />
+        <Route path="/custom" exact component={Custom} />
+        <Route path="/cart" exact component={Cart} />
         <Route component={NotFound} />
       </Switch>
     </div>
