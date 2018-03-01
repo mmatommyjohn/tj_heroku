@@ -16,6 +16,7 @@ const Router = () => (
       <Header />
       <Switch>
         <Route path="/" component={Mark} exact={true} />
+        <Route path="/mark" component={Mark} exact={true} />
         <Route path="/home" component={Home} exact={true} />
         <Route path="/category" component={Category} />
         <Route path="/product" exact component={Product} />
