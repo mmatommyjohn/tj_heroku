@@ -4,12 +4,12 @@ class Home extends React.Component {
   componentDidMount() {
     const DYscript1 = document.createElement("script");
 
-    script.src = "//cdn.dynamicyield.com/api/8769373/api_dynamic.js";
-    script.async = true;
+    DYscript1.src = "//cdn.dynamicyield.com/api/8769373/api_dynamic.js";
+    DYscript1.async = true;
     const DYscript2 = document.createElement("script");
 
-    script.src = "//cdn.dynamicyield.com/api/8769373/api_static.js";
-    script.async = true;
+    DYscript2.src = "//cdn.dynamicyield.com/api/8769373/api_static.js";
+    DYscript2.async = true;
 
     document.body.appendChild(DYscript1);
     document.body.appendChild(DYscript2);
