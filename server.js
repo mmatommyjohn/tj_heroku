@@ -5,9 +5,6 @@ const port = process.env.PORT || 3000;
 
 const buildPath = path.join(__dirname, "build");
 
-// app.get("/sample_route", (req, res) => {
-//   res.sendFile(path.join(__dirname, "sample_pages", "sample_page.html"));
-// })
 app.use(express.static(buildPath));
 app.get("*", (req, res) => {
   res.sendFile(path.join(buildPath, "index.html"));
