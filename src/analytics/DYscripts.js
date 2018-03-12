@@ -1,6 +1,7 @@
 const setPageCtx = obj => {
   window.DY = window.DY || {};
-  window.DY.recommendationContext = obj;
+  const DY = window.DY;
+  DY.API("spa", { context: obj });
 };
 
 // useDY consumes the page context
