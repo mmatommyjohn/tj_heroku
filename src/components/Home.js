@@ -1,6 +1,7 @@
 import React from "react";
 import useDY from "../analytics/DYscripts";
 import tealium from "../analytics/Tealium";
+
 // all DY dynamic actions for this page within a function
 const dyFn = (DYO = window.DYO) => {
   DYO.smartObject("Dynamic Banner Adder", {

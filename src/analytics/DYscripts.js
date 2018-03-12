@@ -1,5 +1,4 @@
 const setPageCtx = obj => {
-  window.DY = window.DY || {};
   const DY = window.DY;
   DY.API("spa", { context: obj });
 };
@@ -13,13 +12,17 @@ const useDY = (DYpageCtx, dyFn) => {
     dyFn();
   };
 
-  if (window.DYO && window.DY) {
-    console.log("found DY and DYO. preparing magic...");
-    fire();
-  } else {
-    console.log("cannot find DY or DYO. Trying again...");
-    window.setTimeout(fire, 500);
-  }
+  const fireDY = () => {
+    if (window.DYO && window.DY) {
+      console.log("found DY and DYO. preparing magic...");
+      fire();
+      window.clearInterval(intID);
+    } else {
+      console.log("cannot find DY or DYO. Trying again...");
+    }
+  };
+
+  const intID = window.setInterval(fireDY, 500);
 };
 
 export default useDY;
