@@ -5,7 +5,8 @@ import useDY from "../analytics/DYscripts";
 class Product extends React.Component {
   constructor(props) {
     super(props);
-    this.dy_page_ctx = { type: "PRODUCT", lng: "en_US" };
+    const { sku } = props.match.params;
+    this.dy_page_ctx = { type: "PRODUCT", data: [sku], lng: "en_US" };
   }
 
   componentWillMount() {

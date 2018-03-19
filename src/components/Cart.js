@@ -5,7 +5,11 @@ import useDY from "../analytics/DYscripts";
 class Cart extends React.Component {
   constructor(props) {
     super(props);
-    this.dy_page_ctx = { type: "CART", lng: "en_US" };
+    this.dy_page_ctx = {
+      type: "CART",
+      data: ["BOXERS", "SOCKS"],
+      lng: "en_US"
+    };
   }
 
   componentWillMount() {

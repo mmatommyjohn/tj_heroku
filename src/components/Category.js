@@ -5,7 +5,7 @@ import useDY from "../analytics/DYscripts";
 class Category extends React.Component {
   constructor(props) {
     super(props);
-    this.dy_page_ctx = { type: "CATEGORY", lng: "en_US" };
+    this.dy_page_ctx = { type: "CATEGORY", data: ["CLOTHES"], lng: "en_US" };
   }
   componentWillMount() {
     tealium.setPageType("category");

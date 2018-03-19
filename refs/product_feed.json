@@ -1,0 +1,46 @@
+[
+  {
+    "sku": "BLKSHRT",
+    "group_id": "22",
+    "price": 30,
+    "name": "black_shirt",
+    "in_stock": true,
+    "image_url":
+      "https://firebasestorage.googleapis.com/v0/b/sample-app-74242.appspot.com/o/BLKSHRT.jpg?alt=media&token=f6a2e5d5-39c5-4d90-ba2b-4460157c5b96",
+    "url": "https://tj-heroku.herokuapp.com/product/BLKSHRT",
+    "categories": "CLOTHES|SHIRTS"
+  },
+  {
+    "sku": "WHTSHRT",
+    "group_id": "22",
+    "price": 30,
+    "name": "white_shirt",
+    "in_stock": true,
+    "image_url":
+      "https://firebasestorage.googleapis.com/v0/b/sample-app-74242.appspot.com/o/WHTSHRT.jpg?alt=media&token=f3f8f2d0-1cb7-436a-8ee3-2e8e96b41edd",
+    "url": "https://tj-heroku.herokuapp.com/product/WHTSHRT",
+    "categories": "CLOTHES|SHIRTS"
+  },
+  {
+    "sku": "SOCKS",
+    "group_id": "23",
+    "price": 5,
+    "name": "socks",
+    "in_stock": true,
+    "image_url":
+      "https://firebasestorage.googleapis.com/v0/b/sample-app-74242.appspot.com/o/SOCKS.jpg?alt=media&token=3a2c0b3c-1d14-41f0-9ff5-c7eb804b904f",
+    "url": "https://tj-heroku.herokuapp.com/product/SOCKS",
+    "categories": "CLOTHES|SOCKS"
+  },
+  {
+    "sku": "BOXERS",
+    "group_id": "24",
+    "price": 15,
+    "name": "boxers",
+    "in_stock": true,
+    "image_url":
+      "https://firebasestorage.googleapis.com/v0/b/sample-app-74242.appspot.com/o/BOXERS.jpg?alt=media&token=54a3335c-96fa-49d0-b9b2-fc1df823b760",
+    "url": "https://tj-heroku.herokuapp.com/product/BOXERS",
+    "categories": "CLOTHES|BOXERS"
+  }
+]
