@@ -82,11 +82,6 @@ class Header extends Component {
               </NavLink>
             </li>
             <li onClick={this.closeNav}>
-              <NavLink to="/product" activeClassName="nav__is-active">
-                Product
-              </NavLink>
-            </li>
-            <li onClick={this.closeNav}>
               <NavLink to="/cart" activeClassName="nav__is-active">
                 Cart
               </NavLink>
