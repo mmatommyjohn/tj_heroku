@@ -9,6 +9,7 @@ import Category from "../components/Category";
 import Product from "../components/Product";
 import Custom from "../components/Custom";
 import Cart from "../components/Cart";
+import Footer from "../components/Footer";
 
 const Router = () => (
   <BrowserRouter>
@@ -24,6 +25,7 @@ const Router = () => (
         <Route path="/cart" exact component={Cart} />
         <Route component={NotFound} />
       </Switch>
+      <Footer />
     </div>
   </BrowserRouter>
 );
