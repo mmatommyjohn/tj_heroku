@@ -11,9 +11,9 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link id="footer_fabrics_link" to="/fabrics">
+          <a id="footer_fabrics_link" href="/fabrics">
             Fabrics
-          </Link>
+          </a>
         </li>
         <li>
           <Link id="footer_help_link" to="/help">
