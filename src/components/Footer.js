@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <ul className="footer_nav">
         <li>
-          <Link id="footer_home_link" to="/home">
+          <a id="footer_home_link" href="/home">
             Home
-          </Link>
+          </a>
         </li>
         <li>
           <a id="footer_fabrics_link" href="/fabrics">
@@ -16,14 +15,14 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <Link id="footer_help_link" to="/help">
+          <a id="footer_help_link" href="/help">
             Help
-          </Link>
+          </a>
         </li>
         <li>
-          <Link id="footer_about_link" to="/custom">
+          <a id="footer_about_link" href="/custom">
             About
-          </Link>
+          </a>
         </li>
       </ul>
     </footer>
