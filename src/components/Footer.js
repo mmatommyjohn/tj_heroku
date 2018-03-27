@@ -11,13 +11,19 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link to="/custom">Fabrics</Link>
+          <Link id="footer_fabrics_link" to="/fabrics">
+            Fabrics
+          </Link>
         </li>
         <li>
-          <Link to="/help">Help</Link>
+          <Link id="footer_help_link" to="/help">
+            Help
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link id="footer_about_link" to="/custom">
+            About
+          </Link>
         </li>
       </ul>
     </footer>
