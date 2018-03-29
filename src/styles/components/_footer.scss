@@ -14,12 +14,14 @@
   display: flex;
   justify-content: space-around;
   width: 50%;
+  padding: 0;
 }
 
 .footer_nav > li > a {
   text-decoration: none;
   color: $color-link;
 }
+
 .footer_nav > li > a:hover {
   text-decoration: none;
   color: $color-primary-light;
